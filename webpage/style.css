@@ -1,0 +1,93 @@
+@font-face {
+    font-family:Gasalt ;
+    src: url(../fonts/Gasalt-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    --bodyBgColor: lightgray;
+    --FbColor: #157dc3;
+    --containerBg: white;
+
+}
+
+body{
+
+    background-color: var(--bodyBgColor);
+}
+
+section{
+
+    
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 60%;
+    height: 60vh;
+    display: grid;
+    justify-items: center;
+    background-color: var(--containerBg);
+    font-family: Gasalt;
+    font-weight: 800;
+    box-shadow: 0px 0px 10px #B4b7b7;
+    padding: 30px;
+    
+}
+
+.profilePic{
+    /* margin-top: 20px; */
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.main-header{
+    margin-top: 30px;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.content-message{
+    margin-top: 32px;
+    text-align: center;
+    font-family: Arial;
+    color: darkslategray;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.link{
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--FbColor);
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.link:hover{
+    background-color: var(--FbColor);
+    width: 55%;
+    color: white;
+    transition: ease .5s;
+    text-align: center;
+    
+
+}
